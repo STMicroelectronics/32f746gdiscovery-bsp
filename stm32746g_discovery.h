@@ -16,7 +16,11 @@
   *
   ******************************************************************************
   */
-  
+/* IMPORTANT: One of the following flags must be defined in the preprocessor */
+/* options in order to select the target board revision: !!!!!!!!!! */
+/* USE_STM32746G_DISCO */          /* Applicable for all boards except STM32746G DISCO REVC03 and higher revision */
+/* USE_STM32746G_DISCO_REVC03 */   /* Applicable only for STM32746G DISCO REVC03 and higher revision*/
+
 /* Define to prevent recursive inclusion -------------------------------------*/
 #ifndef __STM32746G_DISCOVERY_H
 #define __STM32746G_DISCOVERY_H
@@ -78,10 +82,10 @@ typedef enum
 /** 
   * @brief  Define for STM32746G_DISCOVERY board
   */ 
-#if !defined (USE_STM32746G_DISCO)
- #define USE_STM32746G_DISCO
+#if !defined(USE_STM32746G_DISCO_REVC03) && \
+    !defined(USE_STM32746G_DISCO)
+#define USE_STM32746G_DISCO
 #endif
-
 /** @addtogroup STM32746G_DISCOVERY_LOW_LEVEL_LED
   * @{
   */

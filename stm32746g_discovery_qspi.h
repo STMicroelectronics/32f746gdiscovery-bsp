@@ -35,8 +35,11 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f7xx_hal.h"
+#if defined (USE_STM32746G_DISCO_REVC03)
+#include "../Components/w25q128j/w25q128j.h"
+#else /* USE_STM32746G_DISCO */
 #include "../Components/n25q128a/n25q128a.h"
-
+#endif /* USE_STM32746G_DISCO_REVC03 */
 /** @addtogroup STM32746G_DISCOVERY_QSPI
   * @{
   */    
