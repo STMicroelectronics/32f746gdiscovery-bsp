@@ -34,9 +34,18 @@ Copyright © 2019 STMicroelectronics<br />
 <div class="col-sm-12 col-lg-8">
 <h1 id="update-history"><strong>Update History</strong></h1>
 <div class="collapse">
-<input type="checkbox" id="collapse-section9" checked aria-hidden="true"> <label for="collapse-section9" aria-hidden="true"><strong>V2.1.0 / 25-March-2024</strong></label>
+<input type="checkbox" id="collapse-section10" checked aria-hidden="true"> <label for="collapse-section10" aria-hidden="true"><strong>V2.1.1 / 02-April-2025</strong></label>
 <div>
 <h2 id="main-changes">Main Changes</h2>
+<ul>
+<li>Update BSP_EEPROM_WritePage() API to wait correctly the internal Write cycle duration defined in the EEPROM specification.</li>
+</ul>
+</div>
+</div>
+<div class="collapse">
+<input type="checkbox" id="collapse-section9" aria-hidden="true"> <label for="collapse-section9" aria-hidden="true"><strong>V2.1.0 / 25-March-2024</strong></label>
+<div>
+<h2 id="main-changes-1">Main Changes</h2>
 <ul>
 <li>Update the BSP drivers running on 32F746GDISCOVERY revision C-03 boards supporting W25Q128J QSPI component.</li>
 </ul>
@@ -53,7 +62,7 @@ Copyright © 2019 STMicroelectronics<br />
 <div class="collapse">
 <input type="checkbox" id="collapse-section8" aria-hidden="true"> <label for="collapse-section8" aria-hidden="true"><strong>V2.0.4 / 10-June-2022</strong></label>
 <div>
-<h2 id="main-changes-1">Main Changes</h2>
+<h2 id="main-changes-2">Main Changes</h2>
 <ul>
 <li>All source files: update disclaimer to add reference to the new license agreement.</li>
 </ul>
@@ -62,7 +71,7 @@ Copyright © 2019 STMicroelectronics<br />
 <div class="collapse">
 <input type="checkbox" id="collapse-section7" aria-hidden="true"> <label for="collapse-section7" aria-hidden="true"><strong>V2.0.3 / 12-February-2021</strong></label>
 <div>
-<h2 id="main-changes-2">Main Changes</h2>
+<h2 id="main-changes-3">Main Changes</h2>
 <ul>
 <li>stm32746g_discovery_lcd.c:
 <ul>
@@ -74,7 +83,7 @@ Copyright © 2019 STMicroelectronics<br />
 <div class="collapse">
 <input type="checkbox" id="collapse-section6" aria-hidden="true"> <label for="collapse-section6" aria-hidden="true"><strong>V2.0.2 / 24-August-2017</strong></label>
 <div>
-<h2 id="main-changes-3">Main Changes</h2>
+<h2 id="main-changes-4">Main Changes</h2>
 <ul>
 <li>stm32746g_discovery_lcd.c:
 <ul>
@@ -90,7 +99,7 @@ Copyright © 2019 STMicroelectronics<br />
 <div class="collapse">
 <input type="checkbox" id="collapse-section5" aria-hidden="true"> <label for="collapse-section5" aria-hidden="true"><strong>V2.0.1 / 26-May-2017</strong></label>
 <div>
-<h2 id="main-changes-4">Main Changes</h2>
+<h2 id="main-changes-5">Main Changes</h2>
 <ul>
 <li>Add general description of BSP drivers</li>
 <li>Add Dependencies section</li>
@@ -101,7 +110,7 @@ Copyright © 2019 STMicroelectronics<br />
 <div class="collapse">
 <input type="checkbox" id="collapse-section4" aria-hidden="true"> <label for="collapse-section4" aria-hidden="true"><strong>V2.0.0 / 30-December-2016</strong></label>
 <div>
-<h2 id="main-changes-5">Main Changes</h2>
+<h2 id="main-changes-6">Main Changes</h2>
 <ul>
 <li>stm32f746g_discovery_sd.c/.h:
 <ul>
@@ -132,7 +141,7 @@ Copyright © 2019 STMicroelectronics<br />
 <div class="collapse">
 <input type="checkbox" id="collapse-section3" aria-hidden="true"> <label for="collapse-section3" aria-hidden="true"><strong>V1.1.1 / 02-June-2016</strong></label>
 <div>
-<h2 id="main-changes-6">Main Changes</h2>
+<h2 id="main-changes-7">Main Changes</h2>
 <ul>
 <li>Update typos in drivers comments.</li>
 </ul>
@@ -141,7 +150,7 @@ Copyright © 2019 STMicroelectronics<br />
 <div class="collapse">
 <input type="checkbox" id="collapse-section2" aria-hidden="true"> <label for="collapse-section2" aria-hidden="true"><strong>V1.1.0 / 22-April-2016</strong></label>
 <div>
-<h2 id="main-changes-7">Main Changes</h2>
+<h2 id="main-changes-8">Main Changes</h2>
 <ul>
 <li>Update overall drivers by removing BSP_PPP_IRQHandler, BSP_PPP_DMA_TX_IRQHandler and BSP_PPP_DMA_RX_IRQHandler to avoid possible conflict when the same Handler is used by different IPs.</li>
 <li>These Handlers should be defined by user at application level, inducing a break of compatibility versus V1.0.0 of the STM32F46G-Discovery BSP drivers</li>
@@ -166,7 +175,7 @@ Copyright © 2019 STMicroelectronics<br />
 <div class="collapse">
 <input type="checkbox" id="collapse-section1" aria-hidden="true"> <label for="collapse-section1" aria-hidden="true"><strong>V1.0.0 / 19-Octobre-2018</strong></label>
 <div>
-<h2 id="main-changes-8">Main Changes</h2>
+<h2 id="main-changes-9">Main Changes</h2>
 <ul>
 <li>First official release of the STM32746G-DISCO board BSP drivers.</li>
 </ul>
