@@ -9,7 +9,7 @@
 **STM32Cube** covers the overall STM32 products portfolio. It includes a comprehensive embedded software platform delivered for each STM32 series.
    * The CMSIS modules (core and device) corresponding to the ARM(tm) core implemented in this STM32 product.
    * The STM32 HAL-LL drivers, an abstraction layer offering a set of APIs ensuring maximized portability across the STM32 portfolio.
-   * The BSP drivers of each evaluation, demonstration or nucleo board provided for this STM32 series.
+   * The BSP drivers of each evaluation, discovery or nucleo board provided for this STM32 series.
    * A consistent set of middleware libraries such as RTOS, USB, FatFS, graphics, touch sensing library...
    * A full set of software projects (basic examples, applications, and demonstrations) for each board provided for this STM32 series.
 
@@ -27,14 +27,7 @@ Details about the content of this release are available in the release note [her
 
 ## Compatibility information
 
-Below is the list of the BSP *component* drivers to be used with this BSP *board* driver. It is **crucial** that you use a consistent set of CMSIS - HAL - BSP versions, as mentioned in [this](https://htmlpreview.github.io/?https://github.com/STMicroelectronics/STM32CubeF7/blob/master/Release_Notes.html) release note.
-
-* [stm32-bsp-common](https://github.com/STMicroelectronics/stm32-bsp-common)
-* [stm32-ft5336](https://github.com/STMicroelectronics/stm32-ft5336)
-* [stm32-n25q128a](https://github.com/STMicroelectronics/stm32-n25q128a)
-* [stm32-ov9655](https://github.com/STMicroelectronics/stm32-ov9655)
-* [stm32-rk043fn48h](https://github.com/STMicroelectronics/stm32-rk043fn48h)
-* [stm32-wm8994](https://github.com/STMicroelectronics/stm32-wm8994)
+It is **crucial** that you use a consistent set of CMSIS - HAL - BSP versions, as mentioned in [this](https://htmlpreview.github.io/?https://github.com/STMicroelectronics/STM32CubeF7/blob/master/Release_Notes.html) release note.
 
 ## Troubleshooting
 
